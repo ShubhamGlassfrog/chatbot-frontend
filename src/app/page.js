@@ -18,7 +18,7 @@ export default function Chatbot() {
 
     try {
       // Send the message to the backend and get the bot response
-      const response = await axios.post('http://localhost:5001/api/chat', {
+      const response = await axios.post('https://chatbot-backend-blush.vercel.app/api/chat', {
         message: userInput,
       });
 
