@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Basic styling for the chat interface */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+}
+
+button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
